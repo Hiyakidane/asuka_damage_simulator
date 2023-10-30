@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "name": "銀の矢",
+        "rune": "銀",
+        "effect": "投げた時に遠投効果",
+        "category": "arrow",
+        "commonlyUsed": "sub"
+    },
+    {
+        "id": 2,
+        "name": "おにぎり",
+        "rune": "飯",
+        "effect": "攻撃を受けると1/16の確率でアスカがおにぎりになる",
+        "category": "food",
+        "commonlyUsed": "sub"
+    },
+    {
+        "id": 3,
+        "name": "薬草",
+        "rune": "薬",
+        "effect": "攻撃を受けた時にHPが1.5回復する(小数点切り上げ)",
+        "category": "grass",
+        "commonlyUsed": "main"
+    },
+    {
+        "id": 4,
+        "name": "命の草",
+        "rune": "命",
+        "effect": "基本守備力が3上がる",
+        "category": "grass",
+        "commonlyUsed": "main"
+    },
+    {
+        "id": 5,
+        "name": "毒消し草",
+        "rune": "消",
+        "effect": "毒を受けない",
+        "category": "grass",
+        "commonlyUsed": "main"
+    },
+    {
+        "id": 6,
+        "name": "超不幸の種",
+        "rune": "超",
+        "effect": "攻撃を受けるとレベルダウン/合成時に呪われる",
+        "category": "grass",
+        "commonlyUsed": "sub"
+    },
+    {
+        "id": 7,
+        "name": "弟切草",
+        "rune": "弟",
+        "effect": "攻撃を受けた時にHPが3.5回復する(小数点切り上げ)",
+        "category": "grass",
+        "commonlyUsed": "main"
+    },
+    {
+        "id": 8,
+        "name": "ドラゴン草",
+        "rune": "火",
+        "effect": "炎ダメージを10%軽減する",
+        "category": "grass",
+        "commonlyUsed": "sub"
+    },
+    {
+        "id": 9,
+        "name": "しあわせ草",
+        "rune": "幸",
+        "effect": "被ダメージの15%を経験値としてもらえる(小数点切り下げ)(最低値1)",
+        "category": "grass",
+        "commonlyUsed": "sub"
+    },
+    {
+        "id": 10,
+        "name": "不幸の種",
+        "rune": "不",
+        "effect": "基本防御力が3下がる/合成時に呪われる",
+        "category": "grass",
+        "commonlyUsed": "sub"
+    },
+    {
+        "id": 11,
+        "name": "天使の種",
+        "rune": "天",
+        "effect": "被ダメージの40%を経験値としてもらえる(小数点切り下げ)(最低値1)",
+        "category": "grass",
+        "commonlyUsed": "sub"
+    },
+    {
+        "id": 12,
+        "name": "識別の巻物",
+        "rune": "識",
+        "effect": "攻撃を受けた時に敵の正体が判明する",
+        "category": "scroll",
+        "commonlyUsed": "main"
+    },
+    {
+        "id": 13,
+        "name": "引き上げの巻物",
+        "rune": "帰",
+        "effect": "倒れてもなくならない(効果は1回のみ)/効果を発揮すると印が消える",
+        "category": "scroll",
+        "commonlyUsed": "sub"
+    },
+    {
+        "id": 14,
+        "name": "おはらいの巻物",
+        "rune": "祓",
+        "effect": "祓印が入っている装備が呪われなくなる",
+        "category": "scroll",
+        "commonlyUsed": "main"
+    },
+    {
+        "id": 15,
+        "name": "バクスイの巻物",
+        "rune": "眠",
+        "effect": "攻撃を受けたときに1/16の確率で敵を眠らせる",
+        "category": "scroll",
+        "commonlyUsed": "main"
+    },
+    {
+        "id": 16,
+        "name": "メッキの巻物",
+        "rune": "金",
+        "effect": "盾がサビなくなる",
+        "category": "scroll",
+        "commonlyUsed": "main"
+    }
+]

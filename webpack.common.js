@@ -2,38 +2,23 @@ module.exports = {
     entry: `./src/index.tsx`,
 
     output: {
-        path: `${__dirname}/dist`,
+        path: `${__dirname}/docs`,
         filename: "main.js"
     },
 
     module: {
         rules: [
             {
-                test: /\.js$/,
-                test: /\.jsx$/,
+                test: /\.ts$|\.tsx$/,
                 use: [
                     {
-                        loader: "babel-loader",
-                        options: {
-                            presets: [
-                                "@babel/preset-env",
-                                "@babel/react"
-                            ]
-                        }
+                        loader: "ts-loader"
                     }
                 ],
-                exclude: /node_modules/, 
+                exclude: ['/node_modules/'], 
             },
             {
-                test: /\.ts$/,
-                test: /\.tsx$/,
-                use: [
-                    {loader: "ts-loader"}
-                ],
-                exclude: /node_modules/, 
-            },
-            {
-                test: /\.css$/i,
+                test: /\.css$/,
                 use: ["style-loader", "css-loader"],
             },
         ]   

@@ -1,0 +1,1787 @@
+[
+    {
+        "id": 0,
+        "name": "未選択",
+        "hp": 0,
+        "attackPower": 0,
+        "defencePower": 0,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "マムル",
+        "hp": 5,
+        "attackPower": 2,
+        "defencePower": 2,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "あなぐらマムル",
+        "hp": 7,
+        "attackPower": 3,
+        "defencePower": 2,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "洞窟マムル",
+        "hp": 5,
+        "attackPower": 50,
+        "defencePower": 99,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "しろがねマムル",
+        "hp": 10,
+        "attackPower": 50,
+        "defencePower": 99,
+        "attributes": [
+            "被ダメ1変換"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "おうごんマムル",
+        "hp": 10,
+        "attackPower": 70,
+        "defencePower": 99,
+        "attributes": [
+            "被ダメ1変換",
+            "全状態異常無効",
+            "倍速 "
+        ]
+    },
+    {
+        "id": 6,
+        "name": "チンタラ",
+        "hp": 6,
+        "attackPower": 2,
+        "defencePower": 3,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "ちゅうチンタラ",
+        "hp": 25,
+        "attackPower": 14,
+        "defencePower": 7,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "おおチンタラ",
+        "hp": 80,
+        "attackPower": 35,
+        "defencePower": 10,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "カラス天狗",
+        "hp": 16,
+        "attackPower": 9,
+        "defencePower": 8,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "ハヤブサ天狗",
+        "hp": 50,
+        "attackPower": 15,
+        "defencePower": 10,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "イヌワシ天狗",
+        "hp": 100,
+        "attackPower": 40,
+        "defencePower": 15,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "プチフェニックス",
+        "hp": 75,
+        "attackPower": 23,
+        "defencePower": 11,
+        "attributes": [
+            "浮遊",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 13,
+        "name": "プルン",
+        "hp": 35,
+        "attackPower": 17,
+        "defencePower": 8,
+        "attributes": [
+            "浮遊",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 14,
+        "name": "プルリン",
+        "hp": 43,
+        "attackPower": 20,
+        "defencePower": 11,
+        "attributes": [
+            "浮遊",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 15,
+        "name": "プルンプリン",
+        "hp": 120,
+        "attackPower": 45,
+        "defencePower": 15,
+        "attributes": [
+            "浮遊",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 16,
+        "name": "ダイキライ",
+        "hp": 50,
+        "attackPower": 31,
+        "defencePower": 25,
+        "attributes": [
+            "爆弾"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "エレーキライ",
+        "hp": 80,
+        "attackPower": 30,
+        "defencePower": 15,
+        "attributes": [
+            "爆弾"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "チョーキライ",
+        "hp": 150,
+        "attackPower": 50,
+        "defencePower": 25,
+        "attributes": [
+            "爆弾"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "ボウヤー",
+        "hp": 20,
+        "attackPower": 3,
+        "defencePower": 5,
+        "attributes": [
+            "投げ物"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "コドモ戦車",
+        "hp": 30,
+        "attackPower": 5,
+        "defencePower": 11,
+        "attributes": [
+            "投げ物"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "オヤジ戦車",
+        "hp": 40,
+        "attackPower": 12,
+        "defencePower": 15,
+        "attributes": [
+            "爆弾",
+            "投げ物 "
+        ]
+    },
+    {
+        "id": 22,
+        "name": "イッテツ戦車",
+        "hp": 80,
+        "attackPower": 15,
+        "defencePower": 11,
+        "attributes": [
+            "爆弾",
+            "投げ物",
+            "倍速 "
+        ]
+    },
+    {
+        "id": 23,
+        "name": "デブータ",
+        "hp": 70,
+        "attackPower": 25,
+        "defencePower": 8,
+        "attributes": [
+            "投げ物"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "デブーチョ",
+        "hp": 75,
+        "attackPower": 40,
+        "defencePower": 12,
+        "attributes": [
+            "投げ物"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "デブートン",
+        "hp": 130,
+        "attackPower": 60,
+        "defencePower": 15,
+        "attributes": [
+            "投げ物"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "タイガーウッホ",
+        "hp": 39,
+        "attackPower": 24,
+        "defencePower": 8,
+        "attributes": [
+            "パワー",
+            "投げ物 "
+        ]
+    },
+    {
+        "id": 27,
+        "name": "タイガーウホホ",
+        "hp": 80,
+        "attackPower": 35,
+        "defencePower": 12,
+        "attributes": [
+            "パワー",
+            "投げ物 "
+        ]
+    },
+    {
+        "id": 28,
+        "name": "タイガーウホーン",
+        "hp": 160,
+        "attackPower": 50,
+        "defencePower": 15,
+        "attributes": [
+            "パワー",
+            "投げ物 "
+        ]
+    },
+    {
+        "id": 29,
+        "name": "馬武者",
+        "hp": 40,
+        "attackPower": 16,
+        "defencePower": 12,
+        "attributes": [
+            "投げ物"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "荒馬ザムライ",
+        "hp": 65,
+        "attackPower": 27,
+        "defencePower": 12,
+        "attributes": [
+            "投げ物"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "あばれ馬将軍",
+        "hp": 68,
+        "attackPower": 25,
+        "defencePower": 15,
+        "attributes": [
+            "投げ物",
+            "倍速 "
+        ]
+    },
+    {
+        "id": 32,
+        "name": "乱れ馬王",
+        "hp": 200,
+        "attackPower": 45,
+        "defencePower": 12,
+        "attributes": [
+            "投げ物",
+            "倍速 "
+        ]
+    },
+    {
+        "id": 33,
+        "name": "ひまガッパ",
+        "hp": 32,
+        "attackPower": 19,
+        "defencePower": 7,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 34,
+        "name": "いやすぎガッパ",
+        "hp": 49,
+        "attackPower": 24,
+        "defencePower": 7,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 35,
+        "name": "たまらんガッパ",
+        "hp": 120,
+        "attackPower": 35,
+        "defencePower": 10,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 36,
+        "name": "よせカエル",
+        "hp": 11,
+        "attackPower": 5,
+        "defencePower": 5,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 37,
+        "name": "すぐカエル",
+        "hp": 43,
+        "attackPower": 22,
+        "defencePower": 10,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 38,
+        "name": "いまカエル",
+        "hp": 82,
+        "attackPower": 27,
+        "defencePower": 12,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 39,
+        "name": "オトト兵",
+        "hp": 24,
+        "attackPower": 15,
+        "defencePower": 8,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 40,
+        "name": "オトト軍曹",
+        "hp": 35,
+        "attackPower": 20,
+        "defencePower": 12,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 41,
+        "name": "オトト大将",
+        "hp": 65,
+        "attackPower": 26,
+        "defencePower": 23,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 42,
+        "name": "オトト元帥",
+        "hp": 98,
+        "attackPower": 50,
+        "defencePower": 18,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 43,
+        "name": "ぬすっトド",
+        "hp": 25,
+        "attackPower": 0,
+        "defencePower": 6,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 44,
+        "name": "みどりトド",
+        "hp": 60,
+        "attackPower": 0,
+        "defencePower": 10,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 45,
+        "name": "アイアントド",
+        "hp": 80,
+        "attackPower": 0,
+        "defencePower": 8,
+        "attributes": [
+            "水棲",
+            "水進",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 46,
+        "name": "ガマラ",
+        "hp": 22,
+        "attackPower": 0,
+        "defencePower": 8,
+        "attributes": [
+            "(倍速)"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "ガマグッチ",
+        "hp": 50,
+        "attackPower": 0,
+        "defencePower": 15,
+        "attributes": [
+            "(倍速)"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "ガマゴン",
+        "hp": 100,
+        "attackPower": 0,
+        "defencePower": 20,
+        "attributes": [
+            "(倍速)"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "怪盗ペリカン",
+        "hp": 28,
+        "attackPower": 10,
+        "defencePower": 11,
+        "attributes": [
+            "水癒"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "怪盗ペリカン2世",
+        "hp": 50,
+        "attackPower": 20,
+        "defencePower": 12,
+        "attributes": [
+            "水癒"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "怪盗ペリカン3世",
+        "hp": 62,
+        "attackPower": 20,
+        "defencePower": 15,
+        "attributes": [
+            "倍速",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 52,
+        "name": "怪盗ペリカン4世",
+        "hp": 80,
+        "attackPower": 30,
+        "defencePower": 18,
+        "attributes": [
+            "倍速",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 53,
+        "name": "にぎりみならい",
+        "hp": 11,
+        "attackPower": 7,
+        "defencePower": 6,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "にぎりへんげ",
+        "hp": 24,
+        "attackPower": 11,
+        "defencePower": 10,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "にぎり親方",
+        "hp": 68,
+        "attackPower": 25,
+        "defencePower": 15,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "にぎりもとじめ",
+        "hp": 120,
+        "attackPower": 50,
+        "defencePower": 15,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "ノロージョ",
+        "hp": 50,
+        "attackPower": 21,
+        "defencePower": 8,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "ノロージョの姉",
+        "hp": 90,
+        "attackPower": 36,
+        "defencePower": 10,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "ノロージョの母",
+        "hp": 150,
+        "attackPower": 40,
+        "defencePower": 15,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "ロケットイノシシ",
+        "hp": 33,
+        "attackPower": 21,
+        "defencePower": 11,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "ジェットイノシシ",
+        "hp": 85,
+        "attackPower": 35,
+        "defencePower": 5,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "ソニックイノシシ",
+        "hp": 150,
+        "attackPower": 60,
+        "defencePower": 20,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "シューベル",
+        "hp": 53,
+        "attackPower": 22,
+        "defencePower": 10,
+        "attributes": [
+            "マジック"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "メンベルス",
+        "hp": 64,
+        "attackPower": 28,
+        "defencePower": 11,
+        "attributes": [
+            "マジック"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "ベルトーベン",
+        "hp": 200,
+        "attackPower": 50,
+        "defencePower": 15,
+        "attributes": [
+            "マジック"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "パ王",
+        "hp": 55,
+        "attackPower": 20,
+        "defencePower": 12,
+        "attributes": [
+            "マジック"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "パオパ王",
+        "hp": 108,
+        "attackPower": 32,
+        "defencePower": 5,
+        "attributes": [
+            "マジック"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "パオパ王ーン",
+        "hp": 130,
+        "attackPower": 48,
+        "defencePower": 18,
+        "attributes": [
+            "マジック"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "バットカンガルー",
+        "hp": 62,
+        "attackPower": 24,
+        "defencePower": 10,
+        "attributes": [
+            "マジック"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "エビルカンガルー",
+        "hp": 95,
+        "attackPower": 32,
+        "defencePower": 13,
+        "attributes": [
+            "マジック"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "デビルカンガルー",
+        "hp": 105,
+        "attackPower": 37,
+        "defencePower": 15,
+        "attributes": [
+            "マジック"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "うしわか丸",
+        "hp": 10,
+        "attackPower": 5,
+        "defencePower": 4,
+        "attributes": [
+            "マジック",
+            "投反 "
+        ]
+    },
+    {
+        "id": 73,
+        "name": "クロウ丸",
+        "hp": 41,
+        "attackPower": 23,
+        "defencePower": 13,
+        "attributes": [
+            "マジック",
+            "投反",
+            "魔反 "
+        ]
+    },
+    {
+        "id": 74,
+        "name": "ヨシツネ丸",
+        "hp": 60,
+        "attackPower": 25,
+        "defencePower": 15,
+        "attributes": [
+            "マジック",
+            "投反",
+            "魔反 "
+        ]
+    },
+    {
+        "id": 75,
+        "name": "ジャガン仮面",
+        "hp": 36,
+        "attackPower": 15,
+        "defencePower": 16,
+        "attributes": [
+            "ゴースト"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "ジャガー王子",
+        "hp": 70,
+        "attackPower": 30,
+        "defencePower": 17,
+        "attributes": [
+            "ゴースト"
+        ]
+    },
+    {
+        "id": 77,
+        "name": "ジャガール王",
+        "hp": 120,
+        "attackPower": 45,
+        "defencePower": 25,
+        "attributes": [
+            "ゴースト"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "ゲイズ",
+        "hp": 23,
+        "attackPower": 11,
+        "defencePower": 5,
+        "attributes": [
+            "一ツ目"
+        ]
+    },
+    {
+        "id": 79,
+        "name": "スーパーゲイズ",
+        "hp": 72,
+        "attackPower": 32,
+        "defencePower": 16,
+        "attributes": [
+            "一ツ目"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "ハイパーゲイズ",
+        "hp": 100,
+        "attackPower": 50,
+        "defencePower": 25,
+        "attributes": [
+            "一ツ目"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "アイアンヘッド",
+        "hp": 75,
+        "attackPower": 32,
+        "defencePower": 8,
+        "attributes": [
+            "一ツ目",
+            "パワー "
+        ]
+    },
+    {
+        "id": 82,
+        "name": "チェインヘッド",
+        "hp": 110,
+        "attackPower": 38,
+        "defencePower": 13,
+        "attributes": [
+            "一ツ目",
+            "パワー "
+        ]
+    },
+    {
+        "id": 83,
+        "name": "ギガヘッド",
+        "hp": 140,
+        "attackPower": 80,
+        "defencePower": 25,
+        "attributes": [
+            "一ツ目",
+            "パワー "
+        ]
+    },
+    {
+        "id": 84,
+        "name": "影ぼうし",
+        "hp": 27,
+        "attackPower": 20,
+        "defencePower": 12,
+        "attributes": [
+            "一ツ目",
+            "(浮遊) "
+        ]
+    },
+    {
+        "id": 85,
+        "name": "黒ぼうし",
+        "hp": 50,
+        "attackPower": 20,
+        "defencePower": 15,
+        "attributes": [
+            "一ツ目",
+            "(浮遊)",
+            "(倍速) "
+        ]
+    },
+    {
+        "id": 86,
+        "name": "闇ぼうし",
+        "hp": 100,
+        "attackPower": 35,
+        "defencePower": 18,
+        "attributes": [
+            "一ツ目",
+            "(浮遊)",
+            "(3倍速) "
+        ]
+    },
+    {
+        "id": 87,
+        "name": "くねくねハニー",
+        "hp": 32,
+        "attackPower": 20,
+        "defencePower": 13,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "ミドロ",
+        "hp": 60,
+        "attackPower": 0,
+        "defencePower": 15,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "ゲドロ",
+        "hp": 100,
+        "attackPower": 0,
+        "defencePower": 20,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 90,
+        "name": "オドロ",
+        "hp": 135,
+        "attackPower": 0,
+        "defencePower": 20,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "ドドロ",
+        "hp": 145,
+        "attackPower": 0,
+        "defencePower": 25,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "わらうポリゴン",
+        "hp": 18,
+        "attackPower": 10,
+        "defencePower": 9,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "まわるポリゴン",
+        "hp": 53,
+        "attackPower": 22,
+        "defencePower": 12,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "おどるポリゴン",
+        "hp": 62,
+        "attackPower": 30,
+        "defencePower": 24,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "うたうポリゴン",
+        "hp": 150,
+        "attackPower": 40,
+        "defencePower": 20,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "しおいやん",
+        "hp": 14,
+        "attackPower": 6,
+        "defencePower": 5,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "まじしおいやん",
+        "hp": 40,
+        "attackPower": 20,
+        "defencePower": 8,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 98,
+        "name": "しおやだん",
+        "hp": 88,
+        "attackPower": 27,
+        "defencePower": 12,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 99,
+        "name": "しおかんべん",
+        "hp": 120,
+        "attackPower": 58,
+        "defencePower": 15,
+        "attributes": [
+            "ドレイン"
+        ]
+    },
+    {
+        "id": 100,
+        "name": "ドラゴン",
+        "hp": 70,
+        "attackPower": 35,
+        "defencePower": 15,
+        "attributes": [
+            "ドラゴン"
+        ]
+    },
+    {
+        "id": 101,
+        "name": "スカイドラゴン",
+        "hp": 100,
+        "attackPower": 50,
+        "defencePower": 20,
+        "attributes": [
+            "ドラゴン"
+        ]
+    },
+    {
+        "id": 102,
+        "name": "アークドラゴン",
+        "hp": 300,
+        "attackPower": 130,
+        "defencePower": 30,
+        "attributes": [
+            "ドラゴン"
+        ]
+    },
+    {
+        "id": 103,
+        "name": "シャーガ",
+        "hp": 63,
+        "attackPower": 30,
+        "defencePower": 12,
+        "attributes": [
+            "ドラゴン",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 104,
+        "name": "ナシャーガ",
+        "hp": 86,
+        "attackPower": 30,
+        "defencePower": 15,
+        "attributes": [
+            "ドラゴン",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 105,
+        "name": "ラシャーガ",
+        "hp": 200,
+        "attackPower": 55,
+        "defencePower": 20,
+        "attributes": [
+            "ドラゴン",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 106,
+        "name": "とおせんりゅう",
+        "hp": 65,
+        "attackPower": 25,
+        "defencePower": 12,
+        "attributes": [
+            "ドラゴン"
+        ]
+    },
+    {
+        "id": 107,
+        "name": "ドラゴンヘッド",
+        "hp": 77,
+        "attackPower": 30,
+        "defencePower": 15,
+        "attributes": [
+            "ドラゴン"
+        ]
+    },
+    {
+        "id": 108,
+        "name": "スルードラゴン",
+        "hp": 110,
+        "attackPower": 36,
+        "defencePower": 10,
+        "attributes": [
+            "ドラゴン"
+        ]
+    },
+    {
+        "id": 109,
+        "name": "ムーロン",
+        "hp": 55,
+        "attackPower": 20,
+        "defencePower": 5,
+        "attributes": [
+            "ドラゴン",
+            "浮遊 "
+        ]
+    },
+    {
+        "id": 110,
+        "name": "イェンロン",
+        "hp": 80,
+        "attackPower": 35,
+        "defencePower": 10,
+        "attributes": [
+            "ドラゴン",
+            "浮遊 "
+        ]
+    },
+    {
+        "id": 111,
+        "name": "シンロン",
+        "hp": 150,
+        "attackPower": 40,
+        "defencePower": 14,
+        "attributes": [
+            "ドラゴン",
+            "浮遊 "
+        ]
+    },
+    {
+        "id": 112,
+        "name": "とげドラゴン",
+        "hp": 48,
+        "attackPower": 25,
+        "defencePower": 12,
+        "attributes": [
+            "ドラゴン",
+            "(浮遊) "
+        ]
+    },
+    {
+        "id": 113,
+        "name": "アースニードル",
+        "hp": 150,
+        "attackPower": 40,
+        "defencePower": 15,
+        "attributes": [
+            "ドラゴン",
+            "(浮遊) "
+        ]
+    },
+    {
+        "id": 114,
+        "name": "サンダーランス",
+        "hp": 160,
+        "attackPower": 50,
+        "defencePower": 15,
+        "attributes": [
+            "ドラゴン",
+            "(浮遊) "
+        ]
+    },
+    {
+        "id": 115,
+        "name": "おばけ大根",
+        "hp": 38,
+        "attackPower": 20,
+        "defencePower": 11,
+        "attributes": [
+            "ゴースト",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 116,
+        "name": "めまわし大根",
+        "hp": 64,
+        "attackPower": 23,
+        "defencePower": 13,
+        "attributes": [
+            "ゴースト",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 117,
+        "name": "ねむり大根",
+        "hp": 150,
+        "attackPower": 45,
+        "defencePower": 10,
+        "attributes": [
+            "ゴースト",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 118,
+        "name": "パコレプキン",
+        "hp": 45,
+        "attackPower": 28,
+        "defencePower": 8,
+        "attributes": [
+            "ゴースト",
+            "浮遊",
+            "壁抜け "
+        ]
+    },
+    {
+        "id": 119,
+        "name": "パコレプキーナ",
+        "hp": 80,
+        "attackPower": 45,
+        "defencePower": 10,
+        "attributes": [
+            "ゴースト",
+            "浮遊",
+            "壁抜け "
+        ]
+    },
+    {
+        "id": 120,
+        "name": "パコレプキング",
+        "hp": 120,
+        "attackPower": 60,
+        "defencePower": 12,
+        "attributes": [
+            "ゴースト",
+            "浮遊",
+            "壁抜け "
+        ]
+    },
+    {
+        "id": 121,
+        "name": "エーテルデビル",
+        "hp": 50,
+        "attackPower": 30,
+        "defencePower": 15,
+        "attributes": [
+            "ゴースト",
+            "浮遊",
+            "魔乱反 "
+        ]
+    },
+    {
+        "id": 122,
+        "name": "ファントムデビル",
+        "hp": 75,
+        "attackPower": 45,
+        "defencePower": 15,
+        "attributes": [
+            "ゴースト",
+            "浮遊",
+            "魔乱反",
+            "2倍速 "
+        ]
+    },
+    {
+        "id": 123,
+        "name": "ミラージュデビル",
+        "hp": 100,
+        "attackPower": 50,
+        "defencePower": 20,
+        "attributes": [
+            "ゴースト",
+            "浮遊",
+            "魔乱反",
+            "3倍速 "
+        ]
+    },
+    {
+        "id": 124,
+        "name": "アストラルデビル",
+        "hp": 150,
+        "attackPower": 60,
+        "defencePower": 20,
+        "attributes": [
+            "ゴースト",
+            "浮遊",
+            "魔乱反",
+            "3倍速",
+            "壁抜 "
+        ]
+    },
+    {
+        "id": 125,
+        "name": "ボーンドラゴン",
+        "hp": 52,
+        "attackPower": 23,
+        "defencePower": 12,
+        "attributes": [
+            "ゴースト",
+            "ドラゴン"
+        ]
+    },
+    {
+        "id": 126,
+        "name": "スカルドラゴン",
+        "hp": 80,
+        "attackPower": 48,
+        "defencePower": 20,
+        "attributes": [
+            "ゴースト",
+            "ドラゴン"
+        ]
+    },
+    {
+        "id": 127,
+        "name": "ガルムドラゴン",
+        "hp": 100,
+        "attackPower": 70,
+        "defencePower": 35,
+        "attributes": [
+            "ゴースト",
+            "ドラゴン"
+        ]
+    },
+    {
+        "id": 128,
+        "name": "ぼうれい武者",
+        "hp": 4,
+        "attackPower": 0,
+        "defencePower": 0,
+        "attributes": [
+            "ゴースト"
+        ]
+    },
+    {
+        "id": 129,
+        "name": "鬼面武者",
+        "hp": 35,
+        "attackPower": 23,
+        "defencePower": 10,
+        "attributes": [
+            "水衰"
+        ]
+    },
+    {
+        "id": 130,
+        "name": "はんにゃ武者",
+        "hp": 57,
+        "attackPower": 26,
+        "defencePower": 11,
+        "attributes": [
+            "水衰"
+        ]
+    },
+    {
+        "id": 131,
+        "name": "将軍",
+        "hp": 120,
+        "attackPower": 35,
+        "defencePower": 15,
+        "attributes": [
+            "水衰"
+        ]
+    },
+    {
+        "id": 132,
+        "name": "ケンゴウ",
+        "hp": 55,
+        "attackPower": 28,
+        "defencePower": 13,
+        "attributes": [
+            "パワー",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 133,
+        "name": "イアイ",
+        "hp": 90,
+        "attackPower": 40,
+        "defencePower": 20,
+        "attributes": [
+            "パワー",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 134,
+        "name": "シハン",
+        "hp": 160,
+        "attackPower": 70,
+        "defencePower": 15,
+        "attributes": [
+            "パワー",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 135,
+        "name": "タウロス",
+        "hp": 95,
+        "attackPower": 30,
+        "defencePower": 2,
+        "attributes": [
+            "パワー",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 136,
+        "name": "ミノタウロス",
+        "hp": 120,
+        "attackPower": 50,
+        "defencePower": 5,
+        "attributes": [
+            "パワー",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 137,
+        "name": "メガタウロス",
+        "hp": 200,
+        "attackPower": 100,
+        "defencePower": 10,
+        "attributes": [
+            "パワー",
+            "水衰 "
+        ]
+    },
+    {
+        "id": 138,
+        "name": "兵隊アリ",
+        "hp": 58,
+        "attackPower": 28,
+        "defencePower": 8,
+        "attributes": [
+            "水衰"
+        ]
+    },
+    {
+        "id": 139,
+        "name": "隊長アリ",
+        "hp": 90,
+        "attackPower": 40,
+        "defencePower": 10,
+        "attributes": [
+            "水衰"
+        ]
+    },
+    {
+        "id": 140,
+        "name": "将軍アリ",
+        "hp": 150,
+        "attackPower": 50,
+        "defencePower": 15,
+        "attributes": [
+            "水衰",
+            "倍速 "
+        ]
+    },
+    {
+        "id": 141,
+        "name": "かけだし忍者",
+        "hp": 21,
+        "attackPower": 10,
+        "defencePower": 6,
+        "attributes": [
+            "水衰"
+        ]
+    },
+    {
+        "id": 142,
+        "name": "いっぱし忍者",
+        "hp": 55,
+        "attackPower": 25,
+        "defencePower": 7,
+        "attributes": [
+            "水衰"
+        ]
+    },
+    {
+        "id": 143,
+        "name": "はがくれ忍者",
+        "hp": 70,
+        "attackPower": 24,
+        "defencePower": 12,
+        "attributes": [
+            "水衰"
+        ]
+    },
+    {
+        "id": 144,
+        "name": "火炎入道",
+        "hp": 62,
+        "attackPower": 28,
+        "defencePower": 10,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 145,
+        "name": "キグニ族",
+        "hp": 60,
+        "attackPower": 28,
+        "defencePower": 13,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 146,
+        "name": "ンドゥバ",
+        "hp": 15,
+        "attackPower": 5,
+        "defencePower": 5,
+        "attributes": [
+            "(鈍足)",
+            "(倍速) "
+        ]
+    },
+    {
+        "id": 147,
+        "name": "店主",
+        "hp": 500,
+        "attackPower": 200,
+        "defencePower": 50,
+        "attributes": [
+            "-"
+        ]
+    },
+    {
+        "id": 148,
+        "name": "店長",
+        "hp": 700,
+        "attackPower": 300,
+        "defencePower": 70,
+        "attributes": [
+            "魔乱反"
+        ]
+    },
+    {
+        "id": 149,
+        "name": "大店長",
+        "hp": 900,
+        "attackPower": 400,
+        "defencePower": 90,
+        "attributes": [
+            "被ダメ1変換",
+            "全状態異常無効 "
+        ]
+    },
+    {
+        "id": 150,
+        "name": "盗賊番",
+        "hp": 150,
+        "attackPower": 150,
+        "defencePower": 40,
+        "attributes": [
+            "番犬隊"
+        ]
+    },
+    {
+        "id": 151,
+        "name": "番犬",
+        "hp": 100,
+        "attackPower": 50,
+        "defencePower": 40,
+        "attributes": [
+            "番犬隊",
+            "倍速 "
+        ]
+    },
+    {
+        "id": 152,
+        "name": "頭領(操られたジンパチ)",
+        "hp": 150,
+        "attackPower": 30,
+        "defencePower": 16,
+        "attributes": [
+            "ボス"
+        ]
+    },
+    {
+        "id": 153,
+        "name": "メイオウラン",
+        "hp": 300,
+        "attackPower": 45,
+        "defencePower": 20,
+        "attributes": [
+            "ボス",
+            "水癒 "
+        ]
+    },
+    {
+        "id": 154,
+        "name": "おしべ",
+        "hp": 50,
+        "attackPower": 25,
+        "defencePower": 15,
+        "attributes": [
+            "ボス"
+        ]
+    },
+    {
+        "id": 155,
+        "name": "つた",
+        "hp": 50,
+        "attackPower": 30,
+        "defencePower": 10,
+        "attributes": [
+            "ボス",
+            "水癒",
+            "鈍足 "
+        ]
+    },
+    {
+        "id": 156,
+        "name": "クーフク",
+        "hp": 200,
+        "attackPower": 40,
+        "defencePower": 15,
+        "attributes": [
+            "ボス",
+            "ゴースト"
+        ]
+    },
+    {
+        "id": 157,
+        "name": "ティナ",
+        "hp": 200,
+        "attackPower": 50,
+        "defencePower": 10,
+        "attributes": [
+            "ボス",
+            "- "
+        ]
+    },
+    {
+        "id": 158,
+        "name": "ネムリー",
+        "hp": 80,
+        "attackPower": 30,
+        "defencePower": 15,
+        "attributes": [
+            "ボス",
+            "ゴースト",
+            "魔反 "
+        ]
+    },
+    {
+        "id": 159,
+        "name": "サンジュ",
+        "hp": 150,
+        "attackPower": 30,
+        "defencePower": 12,
+        "attributes": [
+            "ボス"
+        ]
+    },
+    {
+        "id": 160,
+        "name": "アクィラ",
+        "hp": 100,
+        "attackPower": 20,
+        "defencePower": 5,
+        "attributes": [
+            "ボス"
+        ]
+    },
+    {
+        "id": 161,
+        "name": "ラグーン",
+        "hp": 300,
+        "attackPower": 50,
+        "defencePower": 0,
+        "attributes": [
+            "ボス"
+        ]
+    },
+    {
+        "id": 162,
+        "name": "ラグーンの右手",
+        "hp": 50,
+        "attackPower": 40,
+        "defencePower": 5,
+        "attributes": [
+            "ボス"
+        ]
+    },
+    {
+        "id": 163,
+        "name": "ラグーンの左手",
+        "hp": 50,
+        "attackPower": 40,
+        "defencePower": 5,
+        "attributes": [
+            "ボス"
+        ]
+    },
+    {
+        "id": 164,
+        "name": "つむじ風",
+        "hp": 5,
+        "attackPower": 3,
+        "defencePower": 1,
+        "attributes": [
+            "投反"
+        ]
+    },
+    {
+        "id": 165,
+        "name": "黒雷仙女",
+        "hp": 500,
+        "attackPower": 60,
+        "defencePower": 0,
+        "attributes": [
+            "ボス"
+        ]
+    },
+    {
+        "id": 166,
+        "name": "黒雷仙女の右手",
+        "hp": 80,
+        "attackPower": 50,
+        "defencePower": 0,
+        "attributes": [
+            "ボス"
+        ]
+    },
+    {
+        "id": 167,
+        "name": "黒雷仙女の左手",
+        "hp": 80,
+        "attackPower": 50,
+        "defencePower": 0,
+        "attributes": [
+            "ボス"
+        ]
+    }
+]

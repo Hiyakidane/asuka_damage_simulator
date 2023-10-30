@@ -1,22 +1,19 @@
 // React
 import React from "react";
+import {
+    BrowserRouter as Router,
+    Route,
+    Routes,
+} from "react-router-dom";
 
-// MUI
-
-//
-import { Header } from "./Header";
-import { Main } from "./Main";
-import { Footer } from "./Footer";
-import { Stack } from "@mui/material";
+import { Top } from "./features/contents/components/Top";
 
 export const App = () => {
     return (
-        <React.Fragment>
-            <Stack spacing={2}>
-                <Header></Header>
-                <Main></Main>
-                <Footer></Footer>
-            </Stack>
-        </React.Fragment>
+        <Router>
+            <Routes>
+                <Route path="/" Component={Top} />
+            </Routes>
+        </Router>
     );
 }
