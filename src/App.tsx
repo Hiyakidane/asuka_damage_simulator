@@ -9,6 +9,7 @@ import {
 import { Top } from "./features/contents/components/Top";
 
 export const App = () => {
+    {/*}
     return (
         <Router>
             <Routes>
@@ -16,4 +17,10 @@ export const App = () => {
             </Routes>
         </Router>
     );
+    {*/}
+    return (
+        <>
+            <Top />
+        </>
+    )
 }
