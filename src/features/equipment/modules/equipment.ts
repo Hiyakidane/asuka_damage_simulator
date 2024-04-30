@@ -141,9 +141,7 @@ export const increaseEquipmentRuneCount = (equipment: Equipment): void => {
     }
 
     // 装備に付与可能な印数は16個まで
-    if (equipment.runeCount > 15) {
-        return;
-    } else {
+    if (equipment.runeCount < 16) {
         equipment.runeCount += 1;
     }
 }
@@ -155,12 +153,14 @@ export const decreaseEquipmentRuneCount = (equipmentJson: object, equipment: Equ
     }
 
     // 装備のベース印数未満に下げられない
-    if (equipment.runeCount <= equipmentJson[equipment.id].runeCount) {
-        return;
-    } else {
+    console.log("equipment.runeCount:" + equipment.runeCount);
+    console.log("equipmentJson[equipment.id].runeCount:" + equipmentJson[equipment.id].runeCount);
+    if (equipment.runeCount > equipmentJson[equipment.id].runeCount) {
         equipment.runeCount -= 1;
         equipmentSynthesisRunes.pop();
     }
+
+    console.log(equipmentJson);
 }
 
 // 装備に印を追加する

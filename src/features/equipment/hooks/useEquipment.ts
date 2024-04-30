@@ -162,6 +162,7 @@ export const useEquipment = (changeSelectedWeapon, changeSelectedShield): Equipm
 
         // 武器の変更
         setWeapon(weaponJson[equipmentId]);
+
         // 修正値のリセット
         setWeaponModifierValue(() => {
             return {
@@ -170,8 +171,10 @@ export const useEquipment = (changeSelectedWeapon, changeSelectedShield): Equipm
                 helperText: ""
             }
         });
+
         // 合成印のリセット
         setWeaponSynthesisRunes([]);
+
         // 祝福状態のリセット
         setWeaponState(() => {
             return {
@@ -203,6 +206,7 @@ export const useEquipment = (changeSelectedWeapon, changeSelectedShield): Equipm
 
         // 盾の変更
         setShield(shieldJson[equipmentId]);
+
         // 修正値のリセット
         setShieldModifierValue(() => {
             return {
@@ -211,8 +215,10 @@ export const useEquipment = (changeSelectedWeapon, changeSelectedShield): Equipm
                 helperText: ""
             }
         });
+
         // 合成印のリセット
         setShieldSynthesisRunes([]);
+
         // 祝福状態のリセット
         setShieldState(() => {
             return {
