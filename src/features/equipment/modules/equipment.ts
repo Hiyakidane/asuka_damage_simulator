@@ -183,12 +183,43 @@ export const deleteRune = (index: number, equipmentSynthesisRunes: string[]): vo
 export const checkWeaponSpecialSynthesisRune = (equipmentId: number, equipmentName: string, weaponSynthesisRunes: string[]): number => {
     let weaponRuneLength = 0;
 
+    // 回復の剣
+    let healingSwordRunes = ["薬", "弟", "命"];
+    let healingSwordRunesLength = healingSwordRunes.length;
+    while (healingSwordRunes.length > 0) {
+        let targetRune = healingSwordRunes.shift();
+        for (let j = 0; j < weaponSynthesisRunes.length; j++) {
+            if (targetRune === weaponSynthesisRunes[j]) {
+                weaponRuneLength++;
+                break;
+            }
+        }
+    }
+
+    if (weaponRuneLength === healingSwordRunesLength) {
+        equipmentId = 28;
+    } else {
+        weaponRuneLength = 0;
+    }
+
     // 秘剣カブラステギ
     let secretSwordKaburasutegiRunes = ["仏", "水", "目", "月", "竜", "回", "捨", "木"];
+    let secretSwordKaburasutegiRunesLength = secretSwordKaburasutegiRunes.length;
     if (equipmentName === "剛剣マンジカブラ") {
-        weaponRuneLength = weaponSynthesisRunes.filter((rune) => secretSwordKaburasutegiRunes.includes(rune)).length;
-        if (weaponRuneLength === secretSwordKaburasutegiRunes.length) {
+        while (secretSwordKaburasutegiRunes.length > 0) {
+            let targetRune = secretSwordKaburasutegiRunes.shift();
+            for (let j = 0; j < weaponSynthesisRunes.length; j++) {
+                if (targetRune === weaponSynthesisRunes[j]) {
+                    weaponRuneLength++;
+                    break;
+                }
+            }
+        }
+
+        if (weaponRuneLength === secretSwordKaburasutegiRunesLength) {
             equipmentId = 9;
+        } else {
+            weaponRuneLength = 0;
         }
     }
 
@@ -196,24 +227,23 @@ export const checkWeaponSpecialSynthesisRune = (equipmentId: number, equipmentNa
     let dragonGodSwordRunes = ["竜", "竜", "竜"];
     if (equipmentName === "ドラゴンキラー") {
         weaponRuneLength = weaponSynthesisRunes.filter((rune) => dragonGodSwordRunes.includes(rune)).length;
+
         if (weaponRuneLength === dragonGodSwordRunes.length) {
             equipmentId = 16;
+        } else {
+            weaponRuneLength = 0;
         }
-    }
-
-    // 回復の剣
-    let healingSwordRunes = ["薬", "弟", "命"];
-    weaponRuneLength = weaponSynthesisRunes.filter((rune) => healingSwordRunes.includes(rune)).length;
-    if (weaponRuneLength === healingSwordRunes.length) {
-        equipmentId = 28;
     }
 
     // サトリのつるはし
     let wonderPickaxeRunes = ["堀", "堀", "堀", "堀", "堀"];
-    weaponRuneLength = weaponSynthesisRunes.filter((rune) => wonderPickaxeRunes.includes(rune)).length;
     if (equipmentName === "つるはし") {
+        weaponRuneLength = weaponSynthesisRunes.filter((rune) => wonderPickaxeRunes.includes(rune)).length;
+
         if (weaponRuneLength === wonderPickaxeRunes.length) {
             equipmentId = 31;
+        } else {
+            weaponRuneLength = 0;
         }
     }
 
