@@ -153,14 +153,10 @@ export const decreaseEquipmentRuneCount = (equipmentJson: object, equipment: Equ
     }
 
     // 装備のベース印数未満に下げられない
-    console.log("equipment.runeCount:" + equipment.runeCount);
-    console.log("equipmentJson[equipment.id].runeCount:" + equipmentJson[equipment.id].runeCount);
     if (equipment.runeCount > equipmentJson[equipment.id].runeCount) {
         equipment.runeCount -= 1;
         equipmentSynthesisRunes.pop();
     }
-
-    console.log(equipmentJson);
 }
 
 // 装備に印を追加する
@@ -256,9 +252,19 @@ export const checkShieldSpecialSynthesisRune = (equipmentId: number, equipmentNa
 
     // ラセン風魔の盾
     let rasenFumaShieldRunes = ["金", "山", "識", "眠", "う", "見", "飯", "身"];
+    let rasenFumaShiledRunesLength = rasenFumaShieldRunes.length;
     if (equipmentName === "風魔の盾") {
-        shieldRuneLength = shieldSynthesisRunes.filter((rune) => rasenFumaShieldRunes.includes(rune)).length;
-        if (shieldRuneLength === rasenFumaShieldRunes.length) {
+        while (rasenFumaShieldRunes.length > 0) {
+            let targetRune = rasenFumaShieldRunes.shift();
+            for (let j = 0; j < shieldSynthesisRunes.length; j++) {
+                if (targetRune === shieldSynthesisRunes[j]) {
+                    shieldRuneLength++;
+                    break;
+                }
+            }
+        }
+
+        if (shieldRuneLength === rasenFumaShiledRunesLength) {
             equipmentId = 8;
         }
     }

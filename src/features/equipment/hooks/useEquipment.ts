@@ -305,6 +305,7 @@ export const useEquipment = (changeSelectedWeapon, changeSelectedShield): Equipm
     // 武器の印数を増加する
     const handleWeaponRuneCountIncrease = (): void => {
         increaseEquipmentRuneCount(weapon);
+  
         setWeapon(() => {
             return {
                 ...weapon,
