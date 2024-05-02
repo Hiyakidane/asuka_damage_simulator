@@ -161,7 +161,10 @@ export const useEquipment = (changeSelectedWeapon, changeSelectedShield): Equipm
         }
 
         // 武器の変更
-        setWeapon(weaponJson[equipmentId]);
+        // 直接weaponJsonをセットするとweaponJsonの参照が設定される
+        let equipmentData = {...weaponJson[equipmentId]};
+
+        setWeapon(equipmentData);
 
         // 修正値のリセット
         setWeaponModifierValue(() => {
@@ -205,7 +208,10 @@ export const useEquipment = (changeSelectedWeapon, changeSelectedShield): Equipm
         }
 
         // 盾の変更
-        setShield(shieldJson[equipmentId]);
+        // 直接shieldJsonをセットするとshieldJsonの参照が設定される
+        let equipmentData = {...shieldJson[equipmentId]};
+
+        setShield(equipmentData);
 
         // 修正値のリセット
         setShieldModifierValue(() => {

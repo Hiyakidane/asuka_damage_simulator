@@ -82,7 +82,7 @@ export const SelectDialogDataGrid = (props) => {
     const CustomToolbar = () => {
         return (
             <GridToolbarContainer>
-                <GridToolbarFilterButton placeholder="フィルター" />
+                <GridToolbarFilterButton placeholder="フィルター" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />
                 {
                     <Stack direction="row">
                         {filterTargets.map((value, index) => (
