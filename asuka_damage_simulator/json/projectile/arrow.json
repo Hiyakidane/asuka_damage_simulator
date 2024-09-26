@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "木の矢",
+        "attackPower": 5
+    },
+    {
+        "id": 2,
+        "name": "鉄の矢",
+        "attackPower": 9
+    },
+    {
+        "id": 3,
+        "name": "銀の矢",
+        "attackPower": 11
+    },
+    {
+        "id": 4,
+        "name": "会心の矢",
+        "attackPower": 11
+    },
+    {
+        "id": 5,
+        "name": "かまいたちの矢",
+        "attackPower": 9
+    },
+    {
+        "id": 6,
+        "name": "デブータの石",
+        "attackPower": 7
+    }
+]
