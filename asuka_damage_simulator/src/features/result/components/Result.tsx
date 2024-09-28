@@ -63,6 +63,34 @@ export const Result = (props) => {
                 }}>
                     <TableHead>
                         <TableRow>
+                            <TableCell><Typography>剣</Typography></TableCell>
+                            <TableCell><Typography>基本値</Typography></TableCell>
+                            <TableCell><Typography>攻撃力</Typography></TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        <TableRow>
+                            <TableCell>値</TableCell>
+                            <TableCell>{displayWeaponBasicValue}</TableCell>
+                            <TableCell>{displayAsukaAttackPower}</TableCell>
+                        </TableRow>
+                    </TableBody>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell><Typography>盾</Typography></TableCell>
+                            <TableCell><Typography>基本値</Typography></TableCell>
+                            <TableCell><Typography>防御力</Typography></TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        <TableRow>
+                            <TableCell>値</TableCell>
+                            <TableCell>{displayShieldBasicValue}</TableCell>
+                            <TableCell>{displayAsukaDefencePower}</TableCell>
+                        </TableRow>
+                    </TableBody>
+                    <TableHead>
+                        <TableRow>
                             <TableCell>
                                 <Tooltip title="アスカがモンスターに与えるダメージ">
                                     <Typography>与ダメージ</Typography>
@@ -204,16 +232,6 @@ export const Result = (props) => {
                     </TableBody>
                 </Table>
             </TableContainer>
-            <Stack direction="row" spacing={1}>
-                <Stack>
-                    <div>武器の基本値:{displayWeaponBasicValue}</div>
-                    <div>盾　の基本値:{displayShieldBasicValue}</div>
-                </Stack>
-                <Stack>
-                    <div>攻撃力:{displayAsukaAttackPower}</div>
-                    <div>防御力:{displayAsukaDefencePower}</div>
-                </Stack>
-            </Stack>
         </Stack>
     )
 };
