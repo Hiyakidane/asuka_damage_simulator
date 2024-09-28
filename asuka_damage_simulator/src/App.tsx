@@ -5,8 +5,6 @@ import { Top } from "./features/contents/components/Top";
 
 export const App = () => {
     return (
-        <>
-            <Top />
-        </>
+        <Top />
     )
 }
