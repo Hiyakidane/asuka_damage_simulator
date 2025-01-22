@@ -108,7 +108,7 @@ export const Result = (props) => {
                             </TableCell>
                             <TableCell>
                                 <Tooltip title="ダメージ幅(攻撃力*1.125)">
-                                    <Typography>最小</Typography>
+                                    <Typography>最大</Typography>
                                 </Tooltip>
                             </TableCell>
                             <TableCell>
