@@ -178,6 +178,15 @@ export const useCharacter = (changeCharacterStatus): Character => {
 
     // ちからの値を変更
     const handlePowerChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
+        const isValidStrength = (inputValue): boolean => {
+            const parsed = Number(inputValue);
+            return (
+                Number.isInteger(parsed) &&
+                parsed >= 0 &&
+                parsed <= 99
+            );
+        }
+
         let targetName = event.target.name;
         let targetError = "error";
         let targetHelperText = "helperText";
@@ -189,7 +198,10 @@ export const useCharacter = (changeCharacterStatus): Character => {
             powerState[targetHelperText] = "";
         }
 
-        if (isInputValueNumeric(inputValue)) {
+        if (isValidStrength(inputValue)) {
+            if (inputValue == "00") {
+                inputValue = "0";
+            }
             powerState[targetName] = inputValue;
             powerState[targetError] = false;
             powerState[targetHelperText] = "";
